@@ -1,0 +1,72 @@
+
+<div class="container">
+  <form id="user-register">
+    <label class="h1_title">CRÉATION DU COMPTE</label>
+    <div class="form-row">
+      <div class="form-group col-md-6">
+        <input type="text" class="form-control" placeholder="Adresse email *">
+      </div>
+      <div class="form-group col-md-6">
+        <input type="text" class="form-control" placeholder="Nom *">
+      </div>
+    </div>
+    <div class="form-row">
+      <div class="form-group col-md-6">
+        <input type="password" class="form-control" placeholder="Mot de passe *">
+      </div>
+      <div class="form-group col-md-6">
+        <input type="text" class="form-control" placeholder="Prénom *">
+      </div>
+    </div>
+    <div class="form-row">
+      <div class="form-group col-md-6">
+        <input type="password" class="form-control" placeholder="Confirmation de mot de passe *">
+      </div>
+      <div class="form-group col-md-6">
+        <ngx-intl-tel-input [(value)]="phone_number"></ngx-intl-tel-input>
+      </div>
+    </div>
+    <div class="form-row">
+      <div class="form-group col-md-6">
+        <label for="calendar">Date de naissance *</label>
+        <select class="selectpicker custom-select col-md-2" data-live-search="true" size="2">
+            <option *ngFor="let m of month" value={{this.month}}>{{m}}</option>
+        </select>
+          <select class="selectpicker custom-select col-md-2 mr-sm-2" id="monthSelector" data-live-search="true">
+            <option *ngFor="let m of month" value={{this.month}}>{{m}}</option>
+          </select>
+          <select class="selectpicker custom-select col-md-2" id="yearSelector" data-live-search="true">
+            <option *ngFor="let m of month" value={{this.month}}>{{m}}</option>
+          </select>
+      </div>
+      <div class="form-group col-md-6">
+          <label for="Genre" style="float: left;">Genre *</label>
+        <div class="form-check form-check-inline col-md-2">
+          <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1" checked>
+          <label class="form-check-label" for="inlineRadio1">Homme</label>
+        </div>
+        <div class="form-check form-check-inline col-md-2">
+          <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+          <label class="form-check-label" for="inlineRadio2">Femme</label>
+        </div>
+      </div>
+    </div>
+    <div class="form-row">
+      <div class="form-group col-md-6">
+        <div class="form-check">
+          <input class="form-check-input" type="radio" id="gridCheck">
+          <label class="form-check-label" for="gridCheck">
+            J'accepte
+            <a class="bleu2" target="_blank" href="/fr/page/conditions-generales-d-utilisation">
+              les conditions générales
+            </a>
+            d'utilisation du service
+          </label>
+        </div>
+      </div>
+      <div class="form-group col-md-6">
+        <button type="submit" class="btn btn-primary">Créer mon compte</button>
+      </div>
+    </div>
+  </form>
+</div>

@@ -1,0 +1,688 @@
+@media screen and (max-width: 1199px) {
+    .index_search {width: 365px;}
+    .table_recherche tr td:nth-child(odd){margin-right: 0px;}
+    .p_doctori {font-size: 18px;}
+    .size_74{font-size: 64px;}
+    .size_51{font-size: 41px;}
+    .size_23{font-size: 20px;}
+
+    .rdv_dispo_liste li {
+        float: left;
+        margin-right: 5px !important;
+        margin-bottom: 20px;
+        height: 100%;
+        width: 50px !important;
+    }
+    .search_result_list{width: 65%;}
+    .search_result_list .ul_header_dates{max-width: 380px;margin-right: 44px;}
+    .search_result_list .ul_header_dates li {width: 49px !important;margin-right: 5.8px !important;}
+    .search_result_list .ul_header_dates li:last-child{margin-right: 0px !important;}
+    /*.dates_fixed{width: 51.8%;}*/
+    .maps_fixed {position: fixed !important;top: 77px;margin-left: 0px;max-width: 310px;}
+    .navbar{height: 76px;}
+
+
+
+
+   
+}
+
+@media screen and (max-width: 992px){
+
+    .page_search .NonAvalaible{width: 86% !important;margin-left: auto !important;margin-right: auto !important;}
+    .search_result_list {width: 100%;}
+
+    .rdv_dispo_liste li {
+        margin-right: 10px !important;
+    }
+
+    /*.bx-controls-direction a{
+        top: 145px !important;
+    }*/
+
+    .box_doctor_search ,.box_doctor_search .smart_padding{
+        padding-right: 0 !important;
+    }
+
+    .rdv_dispo_liste{
+        padding-left: 4.5em !important;
+    }
+
+    .nav-tabs>li>a{
+        font-size: 14px !important;
+        padding: 10px 5px !important;
+    }
+
+    .nav-tabs>li{
+        margin-right: 10px !important;
+    }
+
+    .search_result_list .rdv_dispo_liste li {margin-right: 0px !important;width: 50px !important;}
+    .search_result_list .date_j{font-size: 18px;}
+    .search_result_list .ul_header_dates {width: auto;margin-right: 44px;padding-left: 0px !important;}
+    .search_result_list .rdv_dispo_liste{width: auto;float: right;margin-right: 38px;}
+    .ul_header_dates{margin-right: 42px !important;}
+    .dates_fixed {width: 74.7%;}
+    .terms_conditions label{width: 90%;float: right;font-size: 15px;padding: 0px !important;margin: 0px;}
+    .transportation{float: left;width: 100%;}
+    .transportation .liste_actes .vpb_header_lebels,.transportation .actes_item {width: 20%;}
+
+
+}
+
+
+
+
+
+@media (max-width: 992px) and (min-width: 655px){
+    .rdv_dispo_liste li {
+        float: left;
+        margin-right: 18px;
+        margin-bottom: 20px;
+        height: 100%;
+        width: 11%;
+    }
+    .width_100_responsive{
+        width: 100%;
+    }
+}
+
+/*-------------Must changed --------------*/
+@media (min-width: 474px )  and (max-width: 655px){
+    .rdv_dispo_liste li {
+        float: left;
+        margin-right: 11px;
+        margin-bottom: 20px;
+        height: 100%;
+        width: 11%;
+    }
+    .date_time{
+        font-size: 14px;
+    }
+    .date_j{
+        font-size: 18px;
+    }
+    
+}
+
+@media screen and (max-width: 768px){
+
+
+    .terms_conditions label {width: 95%;}
+    .terms_conditions {float: left;padding-top: 10px;margin-bottom: 0px !important;padding-bottom: 0px;margin-top: 0px;}
+    .input_1{margin-bottom: 10px;}
+    .submit_btn_searsh_praticen{font-size: 15px;}
+    #formRegister .col-sm-6{padding-left:0px;padding-right: 0px; }
+
+    .search_result_list .profil_searchdoc{
+        position: absolute;
+        z-index: 10;
+        left: -572px;
+        top: -19px;
+        padding-top: 27px;
+        background-color: #ffffff;
+        bottom: 0px;
+        border: 1px solid #d4d5d7;
+        border-bottom: 0px;
+        border-top: 0px;
+    }
+
+    .search_result_list .page_search .pub_right{
+        width: 100%;
+        float: right;
+        border: 0px solid #e0e1e2;
+        border-radius: 0px;
+        box-shadow: 0px 0px 0px #bbb;
+        padding: 0px 0px;
+        background-color: #ffffff;
+        background-image: url(../images/icons/next.png) !important;
+        background-position: right center;
+        background-repeat: no-repeat
+    }
+
+    .box_doctor_search{
+        -webkit-transition: all .2s ease;
+        -moz-transition: all .2s ease;
+        transition: all .2s ease;
+    }
+
+    .box_doctor_search:hover .profil_searchdoc{
+        left: -172px;
+    }
+    .profil_searchdoc:hover{left: 0px !important;}
+
+    .search_result_list .call_box_search{width: 100%;}
+    .search_result_list .rdv_dispo_liste{width: 98%;max-width: 100%;}
+
+    .profil_show{
+        left: 0px !important;
+    }
+
+    .search_result_list .rdv_dispo_liste li {
+        width: 14.28% !important;
+    }
+    .search_result_list .ul_header_dates{width: 89% !important;}
+
+    .form_recherche .inp_3 {
+        width: 100%;
+        margin: 0px;
+        text-align: center;
+        padding: 13px 15px;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+    .form_recherche input[type="submit"]{
+        padding: 13px 0px !important;
+        margin: 0px;
+        background-position-x: 40% !important;
+    }
+
+    /*.bx-controls-direction a{
+        height: 25px !important;
+        top: 170px !important;
+    }*/
+
+    .block_3box{
+        margin-top: 20px !important;
+        margin-bottom: 60px !important; 
+    }
+
+    .col_box_entent{
+        margin-bottom: 80px !important;
+        margin-top: 20px !important;
+    }
+
+    .rdv_dispo_liste{
+        padding-left: 8% !important;
+    }
+
+    .bg_btn_impo {
+        font-size: 16px !important;
+    }
+
+    .date_j{
+        font-size: 18px !important;
+    }
+
+    .date_d{
+        font-size: 12px !important;
+    }
+
+    .date_time{
+        font-size: 14px !important;
+    }
+
+    .profil_doc_v2 .doc_info_img{
+        max-width: 420px;
+        float: none;
+        margin: 0 auto;
+        padding: 0;
+    }
+
+    .profil_doc_v2 .photo_items{
+        /*width: 96%;*/
+    }
+
+    .profil_doc_v2 .info_doc_v2{
+        margin-top: 10px !important;
+    }
+
+    .profil_doc_v2 .phoneNumberImg{
+        border: 0 !important;
+    }
+
+    .profil_doc_v2 .phoneNumberImg img{
+        margin-bottom: 15px;
+    }
+
+    .profil_doc_v2 #btn_rdv_profil,
+    .profil_doc_v2 #btn_num_profil{
+        max-width: 340px;
+        /*margin: 0 auto;*/
+        margin-left: auto;
+        margin-right: auto;
+        float: none;
+    }
+
+    .profil_doc_v2 .calendar_page_detaille{
+        /*width: auto ;*/
+        margin-top: 30px;
+    }
+
+    .profil_doc_v2 .bx-controls-direction a{
+        max-width: 30px;
+    }
+
+    div[id^="section"] .box{
+        display: block;
+    }
+
+    div[id^="section"] .center_flex{
+        align-self: none;
+    }
+
+    .block-connect{
+        width: 100% !important;
+    }
+}
+
+@media screen and (max-width: 680px){
+    /*.rdv_dispo_liste li {
+        width: 45px !important;
+    }
+
+    .rdv_dispo_liste {
+        padding-left: 10% !important;
+    }*/
+
+    
+}
+
+@media screen and (max-width: 634px){
+    /*.rdv_dispo_liste {
+        padding-left: 40px !important;
+    }
+
+    .date_time{
+        font-size: 12px !important;
+    }
+
+    .rdv_dispo_liste li {
+        width: 40px !important;
+        margin-right: 0 !important;
+    }
+
+    .date_time {
+        font-family: 'bentonsansregular';
+        color: #fff;
+        background-color: #b90e66;
+        width: 96%;
+        float: left;
+        font-size: 14px;
+        margin-top: 10px;
+        text-align: center;
+        min-height: 15px;
+        margin-left: 1px;
+    }*/
+}
+
+@media screen and (max-width: 474px){
+
+    .birth_day{width: 48% !important;margin-right: 0px !important;float: left !important;}
+    .birth_month{width: 48% !important;margin-right: 0px !important;float: right !important;}
+    .birth_year{width: 100% !important;margin-top: 10px !important;margin-right: 0px !important;}
+    .terms_conditions label{width: 90%;float: right;font-size: 15px;padding: 0px !important;margin: 0px;}
+
+    .block_3box{margin-top: 10% !important;}
+    .form_recherche .inp_2{margin-bottom: 0px;}
+
+    .form_recherche input[type="submit"]{
+        background-position-x: 35% !important;
+    }
+    .size_74 {
+        font-size: 40px !important;
+    }
+    .size_23 {
+        font-size: 15px !important;
+    }
+
+    /*.rdv_dispo_liste li {
+        float: left;
+        margin-right: 7px;
+        margin-bottom: 20px;
+        height: 100%;
+        width: 11.5%;
+    }
+    .date_time{
+        font-size: 12px;
+    }
+    .date_j{
+        font-size: 16px;
+    }
+    .date_d{
+        font-weight: bold;
+        font-size: 12px;
+    }*/
+    
+    #formRegister td{width: 100%;}
+
+    .sbSelector:link, .sbSelector:visited, .sbSelector:hover{
+        padding-left: 0 !important;
+    }
+
+    .textarea_1{
+        font-size: 13px !important;
+        padding: 10px 0px 0px 15px!important;
+    }
+
+    .input_1,
+    .sbSelector:link, .sbSelector:visited, .sbSelector:hover{
+        font-size: 13px !important;
+    }
+
+}
+
+
+@media screen and (max-width: 480px){
+
+    .search_result_list .rdv_dispo_liste li {
+        width: 13.28% !important;
+    }
+    .ul_header_dates {
+        margin-right: 20px !important;
+    }
+
+    .bx-next {
+        right: -12px !important;
+        margin-top: 5px !important;
+    }
+    .bx-prev {
+        left: -14px !important;
+        margin-top: 5px !important;
+    }
+
+
+    .NonAvalaible {
+        width: 100% !important;
+    }
+
+    .bg_btn_impo{
+        max-width: 100%;
+        width: 100%;
+    }
+
+   /* .rdv_dispo_liste{
+        padding-left: 0 !important;
+        margin-top: 0 !important;
+    }*/
+
+    .NonAvalaible div {
+        margin: 2px 0 0 0px;
+        position: absolute;
+        z-index: 5;
+    }
+
+    .call_box_search{
+        width: 100% !important;
+    }
+
+   /* .rdv_dispo_liste li {
+        width: 14% !important;
+        margin-right: 0 !important;
+    }
+*/
+    /*.rdv_dispo_liste {
+        border: 1px solid #d4d5d7;
+        border-top: 0 !important;
+        border-radius: 0 0 8px 8px !important;
+        border-bottom: 0 !important;
+        margin-top: 75px !important;
+    }*/
+
+    .bx-controls-direction a{
+        height: 50px !important;
+        top: 0 !important;
+        margin-top: 12px;
+    }
+
+    a.btn_rdv_btn_1 {
+        width: 100% !important;
+        max-width: 100% !important;
+    }
+
+    .NonAvalaible {
+        width: 70% !important;
+    }
+
+    .call_box_search{
+        border: 1px solid #e0e1e2;
+        border-radius: 0 0 8px 8px !important;
+    }
+    
+    .pub_right {
+        width: 100%;
+        float: right;
+        border: 1px solid #e0e1e2;
+        border-radius: 8px 8px 0 0;
+        box-shadow: 0 !important;
+        padding: 20px 0px;
+    }
+
+    .rdv_dispo_liste li:first-child {
+        margin-left: 4px;
+    }
+
+    .bx-next {
+        right: -35px;
+        background: url('../images/icons/previe_slider.png') no-repeat center !important;
+    }
+    .tabs_fom .sbHolder{
+        width: 100%;
+    }
+
+    .box_date.date_rdv_box{
+        width: 78%;
+        margin: 0 auto;
+        float: none;
+    }
+    .horaire_responsive{
+        text-align: center;
+    }
+    
+    .pub_responsive .pub_right {
+        width: 100%;
+    }
+    
+    .input_1{width: 100%;padding: 0px 14px;}
+    
+    /*#sexe + .sbHolder{
+          width: 218px;
+    }
+    #form-profil .sbHolder,.form_tab3 .sbHolder{
+        width: 218px;
+    }*/
+
+
+   
+}
+
+@media screen and (max-width: 991px){
+    .div_adress{
+        display: none;
+    }
+    .size_74{font-size: 54px;}
+    .size_51{font-size: 31px;}
+    .size_23{font-size: 18px;}
+    .col_box_entent{margin-bottom: 40px;}
+    .p_doctori{width: 356px;}
+    /*.block_left{background-image: url('../images/bg_block_left.png');}*/
+
+    .profil_doc_v2 .pub_right{
+        margin-bottom: 50px;
+    }
+
+    .profil_doc_v2 .liste_photo{
+        height: 70px;
+    }
+
+    .profil_doc_v2 .bx_slider3 ul.slider3 li{
+        flex-grow: 1;
+    }
+
+    .profil_doc_v2 .photo_items .liste_photo .img_local{
+        margin: 0 auto;
+    }
+
+/*    .profil_doc_v2 .photo_items .liste_photo .img_local:first-child{
+        margin-left: 0 !important;
+    }
+
+    .profil_doc_v2 .photo_items .liste_photo .img_local:last-child{
+        margin-right: 0 !important;
+    }*/
+
+    .profil_doc_v2 .photo_items .liste_photo .img_local{
+        width: 100%;
+    }
+
+    .profil_doc_v2 .info_doc_v2{
+        margin-top: 50px;
+    }
+
+    .profil_doc_v2 .rdv_dispo_liste{
+        padding: 0 !important;
+    }
+
+    .profil_doc_v2 .rdv_dispo_liste li{
+        margin: 0 !important;
+    }
+
+    .profil_doc_v2 .bx-controls-direction a{
+        top: 0 !important;
+    }
+
+    .profil_doc_v2 .rdv_cal_box{
+        padding: 0 !important;
+    }
+}
+
+@media screen and (max-width: 667px){
+    .bientot {margin-top: 5px;float: left;width: 100%;}
+    .votre {margin-top: -21px;float: left;margin-left: 0px;}
+    .p_doctori{	background-color: rgba(255, 255, 255, 0.84);padding: 10px;width: 100%;border: 1px solid #eee;}
+
+    .responsive{
+        display: none;
+    }
+}
+
+
+@media (min-width: 745px )  and (max-width: 992px){
+    .calendar_page_detaille .rdv_dispo_liste li {
+        float: left;
+        margin-right: 19px;
+        margin-bottom: 20px;
+        height: 100%;
+        width: 60px;
+
+    }
+}
+
+
+@media (min-width: 680px )  and (max-width: 992px){
+    .calendar_page_detaille .rdv_dispo_liste li {
+        float: left;
+        margin-right: 19px;
+        margin-bottom: 20px;
+        height: 100%;
+        width: 60px;
+
+    }
+}
+
+
+
+
+@media screen and (max-width: 456px){
+    .form_recherche {width: 100%;}
+    .title_pc{margin-top:155px;}
+
+    .bientot {font-size: 22px;}
+    .votre {font-size: 22px;}
+
+    .size_24{font-size: 24px;}
+    .size_20{font-size: 20px;}
+    .size_50{font-size: 42px;}
+    .size_54{font-size: 40px;}
+    .size_37{font-size: 30px;}
+
+    .responsive{
+        display: none;
+    }
+
+    .date_j{
+        font-size: 18px;
+    }
+    .rdv_dispo_liste .date_time a{
+        font-size: 14px;
+    }
+
+    .responsive-form td,.responsive-form input,.responsive-form .input_desabled{
+        width: 100%;
+    }
+
+
+
+
+
+}
+
+@media screen and (max-width: 380px){
+    .table_recherche  .sbHolder,.input_header,.input_btn_header{
+        width: 276px !important;
+    }
+
+    .date_d{
+        font-size: 11px !important;
+    }
+
+    .date_j {
+        font-size: 16px !important;
+    }
+
+    .rdv_dispo_liste .date_time a{
+        font-size: 12px !important;
+    }
+
+    .NonAvalaible div{
+        font-size: 12px !important;
+    }
+}
+
+@media screen and (max-width: 420px){
+    .table_recherche  .sbHolder,.table_recherche  .input_header ,.table_recherche .input_btn_header{
+        width: 335px;
+    }
+
+}
+
+@media screen and (max-width: 480px){
+    .responsive{
+        display: none;
+    }
+
+    .tabs_block .nav.nav-tabs li,.tabs_block .nav.nav-tabs li a{
+        width: 100% !important;
+    }
+
+    .fc-header-right  .fc-button.fc-state-default.fc-corner-left{
+        font-size: 12px;
+    }
+    #calendar .fc-header .fc-header-left:nth-child(3){
+        position: absolute;
+        left: 70px;
+    }
+
+    .profil_searchdoc {
+        width: 100%;
+    }
+    .profil_searchdoc .profil_doc{
+        width: 100%;
+    }
+
+}
+
+@media screen and (max-width: 1199px){
+
+    .profil_doc_v2 #btn_rdv_profil,
+    .profil_doc_v2 #btn_num_profil{
+        font-size: 18px;
+    }
+
+    .profil_doc_v2 #btn_rdv_profil span.glyphicon,
+    .profil_doc_v2 #btn_num_profil span.glyphicon{
+        margin-right: 10px;
+    }
+
+}

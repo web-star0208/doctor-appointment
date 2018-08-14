@@ -1,0 +1,476 @@
+
+/************ width 1200px *************/
+@media screen and (max-width: 1200px) {
+	.div_input_search {
+	    float: left;
+	    width: 33%;
+	}
+	.medecin_box{background-image: url(../../images/doc2.png);}
+	.right_header{display: none;}
+	.table_right{display: block;width: 100%;}
+	.profil_left{width: 100%;}
+	.ul_date_value li{width: 14.28%;}
+	.liste_times{width: 100%;padding: 0px 39px;}
+	.profil_img{margin-right: 20px;float: left;}
+	.times {width: 14.04%;}
+	.info_doc {width: 240px;float: left;}
+	.name_doc,.adresse_doc{text-align: left;}
+	.btn_rdv_min{
+		position: relative;
+	    float: left;
+	    top: 10px;
+	    left: 0px;
+	    margin-left: 0px;
+	    margin-bottom: 35px;
+	}
+	.profil_left:hover .name_doc, .profil_left:hover .adresse_doc {visibility: visible;}
+	.profil_left:hover .btn_rdv_min {top: 10px;}
+	.profil_left {width: 100%;margin-left: auto;margin-right: auto;display: block;float: left;padding: 22px 19%;}
+
+	.information_doc {
+	    width: 100%;
+	    float: right;
+	    margin-top: 15px;
+	    padding-top: 15px;
+	    border-top: 1px solid #c7c8ca;
+	}
+	.photos_doc {
+	    width: 191px;
+	    float: none;
+	    margin-left: auto;
+	    margin-right: auto;
+	}
+	.acts_care .fstElement{max-width: 100% !important;}
+	.profil_tabs .rdv_profile_pr .information_doc {width: 63%;border-top: 0px;padding-top: 0px;margin-top: 0px;}
+	.tabs_block #sectionA .pub_right img {max-width: 204px;margin-bottom: 5px;width: 40%;}
+	#sectionD .information_doc{width: 68% !important;float: right;margin-top: 0px;padding-top: 0px;border-top: 0px solid #c7c8ca;}
+	#sectionD .link_new_rdv{margin-top: 10px !important;padding: 11px 0px !important;}
+
+}
+
+
+
+@media screen and (min-width: 991px) {
+	.localization-icon:hover #specialityTooltip_localisation{
+	    visibility: visible !important;
+	}
+}
+
+/************ width 991px *************/
+@media screen and (max-width: 991px) {
+	.submit_btn_searsh{
+		max-width: 30%;
+		background-position-x: 35px;
+	}
+	.container_search{background-size: cover;}
+	.md_title{font-size: 35px;}
+	.md_title span{font-size: 30px;}
+	.liste_times{padding: 0px;}
+	.times {width: 14.25%;}
+	.profil_left{padding: 22px 8%;border-bottom: 1px solid #c7c8ca;}
+	.link_rdv_num{font-size: 15px;}
+	.left_part,.right_part{width: 100% !important;}
+	.insc_right_ferst{padding-bottom: 30px;border-bottom: 1px solid #dcddde;}
+	.body_right_page{width: 100% !important;padding-left: 0px;border: 0px;margin-top: 0px;padding-top: 30px;border-top: 0px;padding-left: 0px !important;padding-right: 0px !important;}
+	.div_doctor_praticen .video_box{width: 90%;margin-left: 5%;}
+	#specialite-check .parent {width: 100% !important;min-height: 225px !important;float: left;}
+	.galerie-item {height: 100px !important;width: 25% !important;float: left !important;}
+	.box_calendrier{float: left;margin-top: 60px;}
+	.box_left_calendar{padding-left: 0px !important;padding-right: 0px !important;}
+	.payement_form .col-md-6:nth-child(odd),.payement_form .col-md-6:nth-child(even){padding-left: 0px;padding-right: 0px;float: left;width: 100%;}
+	.insc_right_ferst {border-top: 1px solid #dcddde !important;margin-top: 20px !important;}
+	.sepa_center{display: none !important;}
+	.see_profil_div {position: relative;top: 10px !important;}
+
+	.demo_scroll{display: block;float: left;width: 100%;background-color: rgba(0, 0, 0, 0.65);position: absolute;z-index: 1;height: 100%;}
+    .scroll_left{width: 40%;float: left;background-image: url(../../images/left.gif);background-position: center;background-size: 100%;background-repeat: no-repeat;margin: auto;position: absolute;font-family: 'terminal_dosismedium';top: 0;left: 0;bottom: 0;height: 140px;}
+    .scroll_right{width: 40%;background-image: url(../../images/right.gif);background-position: center;background-size: 100%;background-repeat: no-repeat;float: right;margin: auto;position: absolute;font-family: 'terminal_dosismedium';top: 0;right: 0;bottom: 0;height: 140px;margin-top: 56px;}
+    .spinner {margin: 35% auto;margin-right: 46%;}
+    .insc_right_info{border-bottom: 0px;}
+    .identification_section .sepa_center{margin-top: 80px;}
+	.identification_section .insc_right_info,.identification_section .insc_right_ferst{margin-top: 5px;margin-bottom: 0px;}
+
+	#sectionA .left_sectionA{float: left;width: 100%;}
+	#sectionA .right_sectionA{float: right;  width: 100%;}
+	.tabs_block .pub_right{width: 100% !important;}
+	.cal_box .spinner {margin: 43% auto;margin-right: 46%;}
+	.item_result .cal_box{width: 100%;}
+
+ 
+ 
+ 
+	.tabs_block #sectionA .right_sectionA,.tabs_block #sectionA .left_sectionA{width: 100%;}
+	.tabs_block #sectionA .pub_right{margin-top: 0px;}
+
+	.profil_tabs #sectionB .rdv_item_liste1{width: 50%;float: left;}
+
+	.sl-wrapper .sl-navigation button.sl-prev {left: 2% !important;}
+	.sl-wrapper .sl-navigation button.sl-next {right: 2% !important;}
+	#specialityTooltip_localisation{display: none;}
+	.footer_top .rs a{margin-right: 5px;}
+
+	.footer_top .rs a {width: 35px;height: 35px;line-height: 30px;margin-right: 0px;}
+
+
+
+
+}
+
+
+
+@media screen and (max-width: 768px) {
+	.form_tab_contact .col-sm-6:nth-child(even),.form_tab_contact .col-sm-6:nth-child(odd){padding-left: 0px;padding-right: 0px;}
+	.comming_rdv_pr_box .col-sm-6:nth-child(even){padding-left: 0px !important;padding-right: 0px !important;}
+	.comming_rdv_pr_box .col-sm-6:nth-child(odd){padding-right: 0px !important;padding-left: 0px !important;}
+	.comming_rdv_pr_box2{padding-left: 0px !important;}
+	.comming_rdv_pr_box2 .col-sm-6,.comming_rdv_pr_box2 .col-sm-6:nth-child(even){padding-right: 0px !important;padding-left:0px !important;}
+	.btn-group-phone{max-width: 45%;}
+	.liste_actes .vpb_header_lebels{width: 20%;}
+	.liste_actes .actes_item{width: 20%;font-size: 14px;}
+	.liste_actes .vpb_header_lebels{font-size: 12px !important;}
+	#formRegister .intl-tel-input{margin-bottom: -5px;}
+	#formRegister .col-sm-6{float: left;width: 100%;}
+	.tabs_block .pub_right{width: 100% !important;}
+	#sectionA .info_rdv_doc {margin-bottom: 50px;}
+
+	#sectionA .left_profil_detail .photos_doc,#sectionC .left_profil_detail .photos_doc,#sectionD .left_profil_detail .photos_doc{width: 190px;float: left;}
+	#sectionA .left_profil_detail .information_doc,#sectionC .left_profil_detail .information_doc,#sectionD .left_profil_detail .information_doc{width: calc(100% - 205px);float: right;margin-top: 0px;padding-top: 0px;border-top: 0px solid #c7c8ca;}
+
+
+	.profil_tabs .rdv_profile_pr .photos_doc{width: 80px !important;}
+	.profil_tabs .rdv_profile_pr .information_doc{width: calc(100% - 90px) !important;}
+	#sectionA .comming_rdv_pr_box,#sectionB .rdv_item_liste1 {width: 49%;}
+	#sectionD .info_doc {margin-top: 0px;border: none !important;}
+
+	.transportation .bg_search_box{min-height: auto;}
+	.transportation .index_search{height: auto;}
+
+}
+
+/************ width 720px *************/
+@media screen and (max-width: 720px) {
+	.submit_btn_searsh {
+	    max-width: 100%;
+	    background-position-x: 40%;
+	}
+	.header_date{display: none;}
+	.div_input_search{
+		width: 100%;
+	    margin-right: 0px !important;
+	    margin-bottom: 10px;
+	}
+	.div_title_search{margin-bottom: 0px;}
+	.div_title_search h1{margin-top: 25px;}
+	.item_block_2{width: 50%;margin-bottom: 20px;}
+	.div_medecin,.div_doctor {width: 100%;padding-right: 15px;padding-left: 15px;}
+	.section_body_search{padding: 31px 15px 78px 15px }
+	.result_list{width: 100%;}
+	.times {width: 14.28%;}
+	.liste_times {padding: 0pxpx;}
+	.ul_date_value{width: 100%;}
+	.result_aside{display: none;}
+	.left_profil_detail{width: 100%;}
+	.right_profil_detail{width: 100%;margin-top: 60px;}
+	.additional_detail_left,.additional_detail_right{width: 100%;}
+	.header_right .menu-left{padding: 0px;}
+	.header_search{margin-top: 68px;}
+	.pd_box{float: left;width: 100%;}
+	.cal_box .spinner {margin: 32% auto !important;margin-right: 47% !important;}
+
+	.left_profil_detail .photos_doc {width: 190px;float: left;}
+	.left_profil_detail .information_doc {width: calc(100% - 205px);float: right;margin-top: 0px;padding-top: 0px;border-top: 0px solid #c7c8ca;}
+	.rdv_item_liste1 .rdv_profile_pr .box_date{border-top: 0px !important;}
+
+
+
+	
+ 
+	
+}
+
+
+/************ width 640px *************/
+@media screen and (max-width: 640px) {
+	.img_payment_type{background-size: 100%;}
+	.header_right a {
+	    font-size: 16px;
+	    padding: 11px 10px;
+	}
+	.div_title_search h1 {
+	    margin-top: 50px;
+	    font-size: 40px;
+	}
+	.div_title_search .extralight{font-size: 35px;}
+	.div_title_search p {
+	    word-spacing: 0px;
+	    font-size: 20px;
+	    width: 57%;
+	    margin-left: auto;
+	    margin-right: auto;
+	}
+	.submit_btn_searsh{background-image: none;}
+	.item_block_2{width: 50%;margin-bottom: 25px;border-bottom: 1px solid #eee;padding-bottom: 15px;}
+	.item_block_2 .box_entent .title{min-height: 90px;font-size: 20px;line-height: 26px;}
+	.item_block_2 .box_entent .icon{font-size: 80px;}
+	.team-img img{width: 100%;padding-right: 0px;}
+	.team_information{padding-left: 0px !important;padding-right: 0px !important;}
+	.team_information .title-team,.team_information .text-muted {text-align: center;width: 100%;float: left;}
+	.team-content .bordered{border-bottom: 0px !important;}
+	.btn-group-phone{max-width: 100%;}
+	#renitialiser-phone{font-size: 18px;}
+	button.rdv_tabs.btn_conf{width: 100%;}
+	.vpb_main_wrapper{
+		/*min-width: 648px;
+	    overflow-x: scroll;*/
+	    display: block;
+	    float: left;
+	}
+	.no_mobile{display: none;}
+	.transportation .liste_actes .vpb_header_lebels, .transportation .actes_item{width: 33.3% !important;padding: 0px 5px;}
+	.liste_actes{display: block;float: left;width: 100%;overflow-x: auto;}
+	.acts_care_btn{width: 100% !important;}
+	.galerie-item {width: 33% !important;}
+	.modal-dialog  .list-info .col-md-4{width: 33.3%;float: left;}
+	#cal_viewModal .tab-left-panne #tabs li {width: 100%;}
+	.vpb_header_lebels{padding: 0px !important;text-align: center;padding-top: 12px !important;padding-bottom: 12px !important;}
+	.liste_actes .vpb_header_lebels{width: 25%;font-size: 10px !important;}
+	.empty_results{font-size: 14px;margin: 20px 0px;}
+	.btn_submit_m_v{width: 100%;max-width: 100%;}
+	#form-edit-doc-info .btn_1.edit-doc-info{width: 100%;max-width: 100%;}
+	.intl-tel-input{margin-bottom: 13px !important;}
+	#form-edit-doc-info .success{width: 100% !important;}
+	#sectionAB .success.alert-bug {padding: 15px 15px 15px 15px !important;height: auto;float: left;}
+
+	.menu_tabs{display: block !important;}
+	.tabs_block #tabs-espace{
+		position: fixed;
+		background-color: #fff;
+		padding: 10px 10px;
+		z-index: 200;
+		border: 1px solid rgb(228, 228, 228) !important;
+		left: -2px;
+		width: 80%;
+	    left: -80%;
+		border-radius: 0px 0px 8px 0px;
+		/*box-shadow: 5px 2px 20px -10px #000;*/
+	}
+
+	.tabs_block .menu_tabs{ 
+	    color: #1c2855;
+	    max-width: 45px;
+	    font-size: 23px;
+	    position: absolute;
+	    width: 45px;
+	    z-index: 999999;
+	    height: 40px;
+	    background-color: #fff;
+	    right: -45px;
+	    line-height: 40px;
+	    top: -1px;
+	    border: 1px solid #e4e4e4;
+	    border-radius: 0px 8px 8px 0px;
+	    cursor: pointer;
+	    border-left: 0px;
+	    text-align: center;
+	}
+	.show_left_menu{
+		left: -2px !important;
+	}
+
+	.liste_times .spinner{right: calc(50% - 20px);}
+	.cd-faq-items .h2_title {font-size: 15px !important;margin: 0px;padding-top: 0px;}
+	.consult-style{margin-top:0px;}
+
+	.cal_box .spinner {margin: 35% auto !important;margin-right: 47% !important;}
+
+	#sectionA .left_profil_detail .photos_doc,#sectionC  .left_profil_detail .photos_doc,#sectionD .left_profil_detail .photos_doc{width: 30% !important;}
+	#sectionA .left_profil_detail .information_doc,#sectionC .left_profil_detail .information_doc,#sectionD .left_profil_detail .information_doc{width: 65% !important;margin-top: 0px !important;padding-top: 0px !important;border-top: 0px !important;}
+
+
+	#renitialiser-phone-back,#renitialiser-phone{max-width: 100% !important;}
+	#renitialiser-phone{margin-top: 20px;}
+	#sectionA .comming_rdv_pr_box,#sectionB .rdv_item_liste1{width: 100%;}
+	.profil_tabs #sectionB .rdv_item_liste1{width: 100%;float: left;}
+
+	#sectionC .vpb_main_wrapper .vpb_header_lebels{width: 20%;}
+	#sectionC .vpb_main_wrapper .vpb_header_lebels:first-child{
+		width: 40%;
+	}
+	#sectionC .vasplus_live_edit_area .actes_item{width: 20%;padding: 0px;}
+	#sectionC .vasplus_live_edit_area .actes_item:first-child{
+		width: 40%;
+	}
+
+	.comming_rdv_pr_box .col-sm-6:nth-child(odd),.comming_rdv_pr_box .col-sm-6:nth-child(even){float: left;width: 100%;}
+
+	.tabs_block #sectionA .pub_right img {width: 100%;}
+	.filter_box{height: auto;overflow: hidden;-webkit-transition: all .2s;-moz-transition: all .2s;-o-transition: all .2s;-ms-transition: all .2s;transition: all .2s;}
+	.title-gereen{border-radius: 6px !important;cursor: pointer;}
+	.show_filter{-webkit-transition: all .2s;-moz-transition: all 1s;-o-transition: all 1s;-ms-transition: all 1s;transition: all 1s;}
+	.show_filter .title-gereen{border-radius: 6px 6px 0px 0px !important;}
+	.box_calendrier {float: left;margin-top: 50px;}
+	.save-one-acte, .editer-one-acte {width: 26px;height: 28px;overflow: hidden;margin-left: auto;margin-right: auto;display: block;padding: 5px 10px;margin-left: 30%;cursor: pointer;}
+	.actes_item .vasplus_live_content, .actes_item ._duration{padding: 5px 10px !important;margin-top: 0px;}
+	.pack_semestriel, .pack_annuel, .pack_professionnel {width: 100%;margin-bottom: 50px;border-right:1px solid #eee;}
+	.fc-header-left {position: absolute;margin-top: -50px;}
+	.fc-header-center{float: left;width: 100%;margin: 0px;}
+
+	.liste_actes ._price{padding: 5px 10px !important;margin-top: 0px;}
+	.liste_actes .vasplus_hidden_boxes{margin-top: 5px;}
+
+	.filter_box .additional_title{position: absolute;height: 41px;}
+	.filter_box .motif_fitrage{margin-top: -445px;-webkit-transition: all .2s;-moz-transition: all .2s;-o-transition: all .2s;-ms-transition: all .2s;transition: all .2s;}
+	.show_filter .motif_fitrage{margin-top: 15px;}
+
+	.form_recherche_praticen .intl-tel-input {margin-bottom: 6px !important;}
+	#sectionB .actes_item .vasplus_live_content {padding: 0px 0px !important;margin-top: 0px;font-size: 14px;}
+	#sectionB .vpb_main_wrapper .actes_item {text-align: left !important;padding: 5px 10px;}
+	#prix_change{margin-bottom: 20px;}
+
+	.div_recherches_frequentes .item_block_2 {float: left;width: 50%;padding: 0px;margin-bottom: 0px;border-bottom: 0px !important;}
+ 
+
+
+
+	
+	
+}
+
+
+
+/************ width 490px *************/
+@media screen and (max-width: 490px) {
+	.no_title{display: none;}
+	.footer_top .footer_title{margin-bottom: 15px;}
+	.section_footer_top .item_block_2{width: 100%;}
+	.header_right {
+	    float: right;
+	    margin-right: 0px;
+	    margin-top: 0px;
+	    width: 150px;
+	}
+	.header_right a {
+	    font-size: 16px;
+	    padding: 3px 10px;
+	    float: left;
+	    width: 100%;
+	    text-align: center;
+	}
+	.navbar .logo_nav_fix {
+	    height: 35px;
+	    margin-top: 12px;
+	}
+	.date_day{font-size: 20px !important;}
+	.times .ul_date_value2 a,.date_value{font-size: 13px !important;}
+	.profil_img {margin-right: auto;float: none;}
+	.info_doc {width: 100%;}
+	.name_doc, .adresse_doc {text-align: center;}
+	.btn_rdv_min{left: 50%;margin-left: -71px;}
+	.section_choose_rdv .right_part{padding-top: 60px;}
+	.section_choose_rdv .table_right,.section_choose_rdv .liste_times {padding: 0px 0%;}
+	.section_choose_rdv .nav_left,.section_choose_rdv .nav_right{top: -98px;}
+	.section_choose_rdv .table_right{border-top: 1px solid #c7c8ca;}
+	.additional_item{width: 100%;}
+	.no_padding_mobile{margin-bottom: 0px;padding-bottom: 0px;}
+	.section_footer_center p{text-align: center;}
+	.additional_item  p{width: 100%;}
+	.modal .btn{width: 100% !important;margin-bottom: 10px;}
+	.container .col-md-12,.item_block_2{padding-left: 0px;padding-right: 0px; }
+	#formRegister .alert-bug{margin-left: 0px !important;margin-right: 0px !important;width: 100% !important;}
+
+	.bootstrap-select>.dropdown-toggle, .bootstrap-select>.dropdown-toggle:active, .bootstrap-select>.dropdown-toggle:focus, .bootstrap-select>.dropdown-toggle:hover{font-size: 16px !important;padding: 12px 15px;}
+	.galerie-item {width: 50% !important;}
+	.medecin_box p{max-width: 230px;}
+	.md_title {margin-top: 25px;margin-bottom: 25px;}
+	.section_medecin_doctori{padding: 5px 0px 78px 0px;}
+	.bootstrap-select.btn-group .dropdown-menu.inner {max-height: 30vh !important;}
+	.div_doctor_praticen .video_box {background-image: url(../../images/video_bg.png) !important;height: 304px !important;}
+	.div_doctor_praticen .video_box .play_icon{margin-top: 97px !important;}
+	#cal_shift_rdv_Modal .select_rdv_item{width: 100%;margin-right: 0px;}
+	#cal_shift_rdv_Modal .form-control{margin-bottom: 0px;}
+	.rdv_tabs .icn_rdv_ok .msg {font-size: 15px;}
+	.h1_title{font-size: 22px !important;}
+	.h2_title{font-size: 19px !important;}
+	.cal_box .spinner {margin: 48% auto !important;margin-right: 47% !important;}
+
+	.doctor_title .md_title span{width: 100%;float:left;}
+	
+
+
+
+	
+}
+
+/************ width 490px *************/
+@media screen and (max-width: 480px) {
+	.nav-toggle{display: block;}
+	.file_ariane_account {margin-top: 68px;}
+	.owl-carousel .item img {width: 85%;margin: 0px;margin-left: auto;margin-right: auto;}
+	.rejoin_link{width: 100%;text-align: center;padding: 13px 5px;}
+	.header_right {float: right;margin-right: 0px;margin-top: 0px;width: 100%;}
+	.header_right a {font-size: 16px;padding: 0px 0px;float: right;width: 30px;text-align: center;margin-top: -34px;}
+	ul.menu-left {display: block;max-height: 0;overflow: hidden;-webkit-transition: all 0.3s ease-out;-moz-transition: all 0.3s ease-out;-ms-transition: all 0.3s ease-out;-o-transition: all 0.3s ease-out;transition: all 0.3s ease-out;z-index: 10;float: left;width: 100%;margin: 0px;padding: 0px;position: absolute;left: 0px;margin-top: 12px;}
+	.menu-left li {float: left;width: 100%;}
+	.menu-left li a{float: left;width: 100%;margin: 0px;padding: 10px 0px;background-color: #2f9ba6;color: #fff !important;border-radius: 0px;border-bottom: 1px solid rgba(255, 255, 255, 0.23);}
+	.menu-left li a:hover{background-color: #1e828c;}
+	.navbar .container {margin-top: 11px;margin-bottom: 11px;}
+	ul.menu-left.collapse { max-height: 15em !important; }
+	.show_hidde_menu {display: block;border-radius: 5px;background-color: transparent;float: right;height: 30px;width: 30px;cursor: pointer;padding: 0px;}
+	.show_hidde_menu.open span:first-child { transform: rotate(45deg) translate(5.4px, 3.4px); }
+	.show_hidde_menu.open span:nth-child(2) {width: 0%;opacity: 0;}
+	.show_hidde_menu.open span:last-child { transform: rotate(-45deg) translate(7.4px, -5.4px); }
+	.show_hidde_menu span {position: relative;display: block;height: 5px;width: 100%;margin-top: 3px;background-color: #2f9ba6;transition: all .25s;border-radius: 2px;}
+	.div_title_search p{display: none;}
+  	.navbar .logo_nav_fix {height: 45px;margin-top: 0px;}
+	.div_title_search h1 {margin-top: 42px;font-size: 34px;margin-bottom: 21px;}
+	.bg_search_box{padding: 15px 3.5%;margin-bottom: 31px;}
+	.item_block_2 .box_entent .icon {font-size: 61px;}
+	.section_block_2 {padding: 30px 0px;}
+	.box_entent .title{margin-top: 9px;}
+	.item_block_2 .box_entent .title {min-height: 55px;font-size: 17px;line-height: 18px;}
+	.div_title_search .extralight{margin-right: 5px;}
+	.section_block_2 .item_block_2:nth-child(3),.section_block_2 .item_block_2:nth-child(4){margin-bottom: 0px;border-bottom: 0px;padding-bottom: 0px;}
+	.section_block_2 {padding: 30px 0px 15px 0px;}
+	.phone_number{font-size: 35px;}
+	.icon_tel {position: relative;height: 37px;left: 0;top: 0px;margin-right: 10px;}
+	.footer_top .footer_title{margin-bottom: 5px;}
+	.section_footer_top {padding: 35px 0px 0px 0px;}
+	.section_footer_top .item_block_2{border-bottom: 0px;}
+	.link_rdv_num {width: 100%;margin-bottom: 10px;}
+	.reasons_items .item_block_2:nth-child(3){border-bottom: 0px !important;}
+
+	.vpb_pagination_system a, .vpb_pagination_system span{padding: 6px 9px;}
+	.localization-icon{background-size: 80%;}
+	.spinner {margin: 54% auto;margin-right: 46%;}
+	.table_time_detail .spinner {margin: 27% auto;}
+	.title_section {font-size: 18px;}
+	.link_rdv_num.a_num.a_img{font-family: 'terminal_dosismedium' !important;color: #329aa5 !important;font-size: 22px !important;letter-spacing: 2px;}
+	.cal_box .spinner {margin: 48% auto !important;margin-right: 45% !important;}
+
+	.left_profil_detail .photos_doc {width: 100% !important;}
+	.left_profil_detail .small_img_item li {margin-right: 3%;width: 31%;height: auto;}
+	.left_profil_detail .small_img_item li img {width: 100%;height: 100%;}
+	.left_profil_detail .small_img_item li:last-child {margin-right: 0px;}
+	.left_profil_detail .information_doc {width: 100% !important;float: right !important;margin-top: 20px !important;padding-top: 10px !important;border-top: 1px solid #c7c8ca !important;}
+
+	
+	.profil_tabs #sectionB .information_doc{padding-top: 0px !important;margin-top: 0px !important;border-top: 0px !important;}
+	.div_recherches_frequentes .item_block_2 {width: 100%;}
+
+
+
+
+}
+
+
+/************ width 340px *************/
+@media screen and (max-width: 340px) {
+	.medecin_box p {
+	    margin-top: 0px;
+	    font-size: 18px;
+	}
+	.item_block_2{width: 100%;}
+	.reasons_items .item_block_2:nth-child(3){border-bottom: 1px solid #eee !important;padding-bottom: 25px !important;}
+	.vpb_pagination_system a, .vpb_pagination_system span{padding: 6px 7px;}
+	
+}

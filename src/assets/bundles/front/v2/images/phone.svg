@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="58px" height="148px" viewBox="0 0 58 148" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43.1 (39012) - http://www.bohemiancoding.com/sketch -->
+    <title>Page 1</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="12.005 0.975 12.005 36.75 0.656 36.75 0.656 0.975 12.005 0.975"></polygon>
+        <polygon id="path-3" points="12.005 0.728 12.005 36.503 0.656 36.503 0.656 0.728 12.005 0.728"></polygon>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g transform="translate(7.000000, 6.000000)">
+            <path d="M39.656,134.02485 L39.656,134.02485 C18.041,134.02485 0.506,116.39985 0.521,94.99485 L0.506,40.52985 C0.506,19.12485 18.041,1.49985 39.656,1.49985" id="Stroke-1" stroke="#FFFFFF" stroke-width="15" stroke-linecap="round" stroke-linejoin="round"></path>
+            <g id="Group-5" transform="translate(39.000000, 0.524850)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <g id="Clip-4"></g>
+                <path d="M0.656,0.975 C0.656,0.975 9.326,24.09 0.656,36.75" id="Stroke-3" stroke="#FFFFFF" stroke-width="15" stroke-linecap="round" stroke-linejoin="round" mask="url(#mask-2)"></path>
+            </g>
+            <g id="Group-8" transform="translate(39.000000, 97.524850)">
+                <mask id="mask-4" fill="white">
+                    <use xlink:href="#path-3"></use>
+                </mask>
+                <g id="Clip-7"></g>
+                <path d="M0.656,0.728 C9.326,13.388 0.656,36.503 0.656,36.503" id="Stroke-6" stroke="#FFFFFF" stroke-width="15" stroke-linecap="round" stroke-linejoin="round" mask="url(#mask-4)"></path>
+            </g>
+            <path d="M39.656,98.25285 C32.411,98.25285 26.531,89.53785 26.531,67.75785 C26.531,45.97785 32.411,37.27785 39.656,37.27785" id="Stroke-9" stroke="#FFFFFF" stroke-width="15" stroke-linecap="round" stroke-linejoin="round"></path>
+        </g>
+    </g>
+</svg>

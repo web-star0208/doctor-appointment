@@ -1,0 +1,557 @@
+.section_partner {
+    box-shadow: 0 13px 14px 15px #CCC
+}
+
+.rdv_tabs {
+    margin-bottom: 50px;
+    font-family: 'terminal_dosisbook'!important
+}
+
+.info_rdv_doc .label_title_date {
+    height: 30px
+}
+
+.info_rdv_doc .date_label_rdv {
+    margin-bottom: 12px;
+    border-radius: 8px;
+    border: 1px solid #c7c8ca
+}
+
+.info_rdv_doc .left_profil_detail {
+    transition: all .2s;
+    width: 100%!important
+}
+
+.rdv_tabs a {
+    text-decoration: none;
+    color: #2f9ba6;
+    font-family: 'terminal_dosisbook'
+}
+
+.rdv_tabs a:hover {
+    text-decoration: none;
+    color: #2f9ba6;
+    opacity: .8
+}
+
+#myTab .rdv_info_modal,
+#mdf_forgot_doc,
+#mdf_forgot,
+.modale-trans-add {
+    z-index: 999999!important
+}
+
+#mdf_forgot_doc .modal-dialog,
+#mdf_forgot .modal-dialog,
+.modale-trans-add .modal-dialog {
+    z-index: 9999!important
+}
+
+.modal-dialog .btn_1 {
+    padding: 0!important;
+    font-size: 16px
+}
+
+.sbHolder {
+    box-shadow: none!important;
+    height: 50px!important;
+    border: solid .2px #dcddde!important
+}
+
+textarea::-webkit-input-placeholder,
+textarea::-moz-placeholder,
+textarea:-ms-input-placeholder,
+textarea:-moz-placeholder {
+    font-family: 'terminal_dosisbook'!important;
+    font-size: 12px
+}
+
+.textarea_1,
+.input_1 {
+    font-family: 'terminal_dosisbook'!important;
+    font-size: 14px
+}
+
+.rdv_tabs .btn_conf button {
+    float: right
+}
+
+.rdv_tabs .bg_next,
+.rdv_tabs .bg_next:hover {
+    font-size: 18px!important;
+    font-family: "terminal_dosisbook"!important;
+    padding: 11px 35px;
+    border-radius: 2px;
+    text-decoration: none;
+    background-color: #a61057!important;
+    color: #fff;
+    width: 45%;
+    display: inline-block;
+    margin-left: 5%;
+    font-weight: 400!important
+}
+
+.rdv_tabs .box_date_extra {
+    width: 100%!important
+}
+
+.rdv_tabs .box_date_extra .date_time {
+    width: 200px!important;
+    float: right!important;
+    margin-top: 5px!important
+}
+
+.rdv_tabs .bg_prev,
+.rdv_tabs .bg_prev:hover {
+    font-size: 18px!important;
+    font-family: "terminal_dosisbook"!important;
+    padding: 11px 35px;
+    border-radius: 2px;
+    text-decoration: none;
+    background-color: #2f9ba6!important;
+    color: #fff;
+    width: 45%;
+    display: inline-block;
+    margin-right: 5%;
+    font-weight: 400!important
+}
+
+.rdv_tabs .icn_rdv_ok {
+    text-align: center;
+    font-family: "terminal_dosisbook"!important
+}
+
+.rdv_tabs .icn_rdv_ok .msg {
+    text-align: center;
+    font-family: "terminal_dosisbook"!important;
+    font-size: 20px
+}
+
+.rdv_tabs .icn_rdv_ok .felicitation {
+    font-size: 54px;
+    color: #b90e66;
+    font-family: "terminal_dosisbook"!important
+}
+
+#sectionD .date_time_rdv {
+    font-size: 26px;
+    text-align: center;
+    color: #b90e66
+}
+
+#sectionD .info_rdv_doc {
+    text-align: center
+}
+
+#sectionD .info_doc {
+    margin-top: 0;
+    border: none!important
+}
+
+#sectionD .photos_doc {
+    width: 27%;
+    float: left
+}
+
+#sectionD .information_doc {
+    width: 68%
+}
+
+#sectionD .link_new_rdv {
+    background-color: #2f9ba6;
+    color: #fff;
+    font-size: 18px;
+    font-family: "terminal_dosisbook";
+    padding: 11px 35px;
+    border-radius: 2px;
+    float: left;
+    margin-top: 26px;
+    width: 100%
+}
+
+#sectionD .info_rdv_doc .left_profil_detail {
+    margin-bottom: 30px
+}
+
+.rdv_tabs .icn_rdv_ok i {
+    font-size: 130px;
+    color: #b90e66
+}
+
+#myTab li a {
+    font-size: 18px!important;
+    font-family: "terminal_dosisbook"!important;
+    padding: 11px 35px;
+    border-radius: 2px!important;
+    text-decoration: none;
+    font-weight: 400!important
+}
+
+#tabs-espace li a {
+    font-size: 14px!important;
+    font-family: "terminal_dosisbook"!important;
+    padding: 11px 10px;
+    border-radius: 2px!important;
+    text-decoration: none;
+    font-weight: 400!important
+}
+
+#myTab li.active a,
+#tabs-espace li.active a {
+    background-color: #2f9ba6!important;
+    color: #fff
+}
+
+.times a.reserved,
+.disabled-rdv {
+    opacity: .5;
+    cursor: default;
+    background-color: #8b8b8b!important
+}
+
+.times a.reserved:hover,
+.disabled-rdv:hover {
+    opacity: .5;
+    cursor: default;
+    background-color: #8b8b8b!important
+}
+
+ul.collapse {
+    visibility: visible!important
+}
+
+.medecin_box .rejoin_link {
+    background-color: #2f9ba6
+}
+
+.medecin_box .rejoin_link:hover {
+    background-color: #fff;
+    color: #2f9ba6
+}
+
+a[href^="tel"] {
+    color: inherit!important;
+    text-decoration: none!important;
+    font-size: inherit!important;
+    font-family: inherit!important;
+    font-weight: inherit!important;
+    line-height: inherit!important
+}
+
+.rdv_profile_pr {
+    width: 100%!important
+}
+
+.rdv_profile_pr .photos_doc,
+.rdv_profile_pr .photos_doc a,
+.rdv_profile_pr .information_doc,
+.rdv_profile_pr .box_date {
+    width: 100%
+}
+
+.rdv_profile_pr .box_date i {
+    margin-right: 5px
+}
+
+.rdv_profile_pr .date_time {
+    padding: 12px;
+    width: 100%
+}
+
+.rdv_profile_pr .photos_doc img {
+    width: auto;
+    max-height: 200px;
+    margin: 0 auto;
+    display: block;
+    border-radius: 8px
+}
+
+.rdv_profile_pr .information_doc .info_doc {
+    min-height: 95px
+}
+
+.rdv_profile_pr .profile_mobile_rdv .photos_doc img {
+    width: 100%
+}
+
+.rdv_profile_pr .date_top {
+    text-align: center
+}
+
+.box_date_rdv {
+    padding: 0!important
+}
+
+#profile_tabs {
+    width: 100%!important;
+    display: block!important
+}
+
+.doc_icn_pr {
+    text-align: center
+}
+
+.doc_icn_pr i {
+    font-size: 24rem;
+    color: #2f9ba6;
+    margin-bottom: 20px
+}
+
+.calendar-container [type="radio"] {
+    margin-right: 5px
+}
+
+.border_box {
+    border-radius: 8px;
+    border: 1px solid #e0e1e2
+}
+
+.additional_title,
+.bleu2 {
+    color: #2f9ba6!important
+}
+
+#tabs-espace li:first-child,
+#myTab li:first-child {
+    margin-left: 0!important
+}
+
+#tabs-espace li:last-child,
+#myTab li:last-child {
+    margin-right: 0!important
+}
+
+.statistique {
+    margin-left: 25px
+}
+
+.select_box,
+#sectionA .form-control,
+#sectionC select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    -webkit-border-radius: 0!important;
+    -moz-border-radius: 0!important;
+    border-radius: 0!important;
+    height: 50px!important;
+    background-color: transparent
+}
+
+#sectionA .div_rdv_motif .form-control {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    height: 40px !important;
+}
+
+#sectionC select {
+    width: 100%;
+    background: transparent;
+    padding-left: 15px
+}
+
+.selectDefault_pr {
+    position: absolute;
+    right: 22px;
+    font-size: 32px;
+    margin-top: 3px;
+    color: #666;
+    z-index: -1
+}
+
+.bsmListItem-custom {
+    border-radius: 0!important
+}
+
+.vasplus_hidden_boxes {
+    padding: 1px!important;
+    font-size: 13px!important
+}
+
+.js-editor-container {
+    box-shadow: none!important;
+    border-radius: 0!important
+}
+
+.js-editor-iframe {
+    box-shadow: none!important;
+    border-radius: 0!important
+}
+
+.galerie-item .ezdz-dropzone {
+    background-image: url(../../images/empty-image.png);
+    background-size: 150%;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 4px
+}
+
+.title-gereen {
+    color: #fff!important
+}
+
+#sectionAB .alert {
+    font-family: "terminal_dosisbook"!important;
+    border-radius: 0;
+    box-shadow: none
+}
+
+#sectionAB .alert-info_edited {
+    border: 1px solid #2f9ba6;
+    font-size: 16px;
+    color: #757575;
+    font-family: 'bentonsans_extralight'!important;
+    border-radius: 6px
+}
+
+#sectionAB .alert-success_edited {
+    background-color: #6bbd6e!important;
+    font-size: 18px;
+    color: #fff
+}
+
+#sectionAB .alert-danger_edited {
+    background-color: #f66359!important;
+    font-size: 18px;
+    color: #fff
+}
+
+.note {
+    width: 100%!important
+}
+
+.btn_1 {
+    min-height: 50px
+}
+
+.modal .close:hover,
+.modal .close:focus {
+    color: #fff!important
+}
+
+.modal-footer a {
+    font-size: 16px;
+    font-family: "terminal_dosisbook";
+    padding: 11px 35px;
+    border-radius: 2px;
+    text-decoration: none;
+    width: 100%
+}
+
+.modal input[type="radio"] {
+    margin-right: 5px
+}
+
+select[name="langues[]"] {
+    min-height: 100px!important
+}
+
+.alert-error,
+.alert-msg {
+    width: 100%
+}
+
+@media screen and (min-width: 991px) {
+    .padding_left_0 {
+        padding-left: 0
+    }
+    .padding_right_0 {
+        padding-right: 0
+    }
+    .comming_rdv_pr_box,
+    .pd_box {
+        padding-right: 5px;
+        padding-left: 0!important
+    }
+}
+
+@media screen and (max-width: 1200px) and (min-width: 991px) {
+    .ul_date_value {
+        width: 86.3%
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .btn_1 {
+        padding: 11px 15px!important
+    }
+}
+
+@media screen and (max-width: 720px) {
+    #alpha {
+        display: flex;
+        width: 100%;
+        float: left;
+        padding: 0
+    }
+    #alpha li {
+        padding: 10px 0!important;
+        width: 32px;
+        text-align: center
+    }
+    .menu_flex {
+        flex-flow: wrap
+    }
+    .letters-filter {
+        padding-bottom: 15px;
+        padding-top: 10px
+    }
+    .result-search-conten .link {
+        text-align: center
+    }
+    .btn_1 {
+        padding: 11px 10px!important
+    }
+    .selectDefault_pr {
+        right: 10px
+    }
+    #sectionC .selectDefault_pr {
+        margin-top: 42px
+    }
+    .comming_rdv_pr_box,
+    .pd_box {
+        padding-right: 0!important;
+        padding-left: 0!important
+    }
+    .fc-header-right {
+        display: none
+    }
+    .fc-header-center {
+        float: left;
+        margin-left: 10px
+    }
+    .fc-header-left {
+        width: 170px!important;
+        float: right;
+        padding-top: 44px!important;
+        height: 0!important
+    }
+    .link_rdv_num.a_num.a_img {
+        padding: 6px 0
+    }
+    .rdv_profile_pr .box_date {
+        border-top: 1px solid #c7c8ca;
+        border-radius: 0;
+        margin-top: 10px
+    }
+    .rdv_profile_pr .box_date .date_time {
+        padding: 12px;
+        width: 100%
+    }
+    #tabs-espace {
+        width: 100%;
+        display: flex;
+        flex-direction: column!important
+    }
+    #tabs-espace li {
+        padding: 0!important;
+        margin-left: 0!important;
+        margin-right: 0!important
+    }
+    #tabs-espace li:first-child,
+    #tabs-espace li:last-child {
+        padding: 0!important;
+        margin-left: 0!important;
+        margin-right: 0!important
+    }
+}
